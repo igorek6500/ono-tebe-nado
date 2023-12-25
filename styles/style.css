@@ -307,7 +307,7 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    margin: 181px 58px 89px;
+    margin: 169px 58px 89px;
     max-height: 97px;
     font-size: 18px;
     font-style: normal;
@@ -321,6 +321,7 @@
 
 .footer_menu {
     text-align: center;
+    margin-left: -21px;
 }
 
 .footer_menu_list {
