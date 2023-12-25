@@ -157,13 +157,13 @@
     border: solid white 1px;
 }
 
-.lots {
+.main_section_two_lots {
     margin-top: 163px;
     margin-left: 33px;
     margin-right: 33px;
 }
 
-.lots_heading {
+.main_section_two_lots_heading {
     margin-left: 37px;
     margin-bottom: 27px;
     font-size: 40px;
@@ -172,7 +172,7 @@
     text-transform: uppercase;
 }
 
-.lots_card_list {
+.main_section_two_lots_card_list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -180,19 +180,19 @@
     width: 100%;
 }
 
-.lots_card_list_item {
+.main_section_two_lots_card_list_item {
     margin-bottom: 10px;
     height: 554px;
     max-width: 328px;
     flex-grow: 1;
 }
 
-.card_link {
+.main_section_two_card_link {
     position: relative;
     height: 100%;
 }
 
-.card {
+.main_section_two_card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -200,23 +200,23 @@
     color: #FFF;
 }
 
-.card_type_film {
+.main_section_two_card_type_film {
     background-image: url("/images/card-lot-01.jpg");
     background-size: cover;
 
 }
 
-.card_type_book {
+.main_section_two_card_type_book {
     background-image: url("/images/card-lot-02.jpg");
     background-size: cover;
 }
 
-.card_type_picture {
+.main_section_two_card_type_picture {
     background-image: url("/images/card-lot-03.jpg");
     background-size: cover;
 }
 
-.card_title {
+.main_section_two_card_title {
     z-index: 2;
     font-size: 22px;
     font-style: normal;
@@ -229,7 +229,7 @@
     margin-right: 35px;
 }
 
-.card_text {
+.main_section_two_card_text {
     z-index: 2;
     font-size: 20px;
     font-style: normal;
@@ -240,7 +240,7 @@
     margin-right: 35px;
 }
 
-.lots_look_more_link {
+.main_section_two_lots_look_more_link {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -250,4 +250,110 @@
     border-bottom: solid black 1px;
     margin-left: 39px;
     margin-top: 19px;
+}
+
+.main_section_three_about {
+    display: flex;
+    margin-top: 177px;
+    margin-left: 9px;
+    margin-right: 9px;
+    min-height: 546px;
+}
+
+.main_section_three_about_column {
+    display: grid;
+    grid-template-columns: 328px 1fr;
+}
+
+.main_section_three_about_logo {
+    background-color: black;
+    border-radius: 50%;
+    width: 237px;
+    height: 237px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.main_section_three_about_logo_image {
+    width: 148px;
+}
+
+.main_section_three_about_title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 48px;
+    margin-top: 97px;
+}
+
+.main_section_three_about_text {
+    margin-left: 48px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_section_three_about_description p:first-of-type {
+    margin-top: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 181px 58px 89px;
+    max-height: 97px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_address {
+    text-align: left;
+}
+
+.footer_menu {
+    text-align: center;
+}
+
+.footer_menu_list {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_menu_list_item {
+
+    margin-right: 10px;
+}
+
+.footer_menu_link {
+    text-decoration: none;
+    border-bottom: solid black 1px;
+}
+
+.footer_menu_link_active {
+    border-bottom: 0;
+}
+
+.footer_social_list {
+    display: flex;
+    justify-content: space-between;
+    width: 237px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.footer_social_icon {
+    max-height: 48px;
 }
