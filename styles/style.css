@@ -285,7 +285,8 @@
     margin-left: 58px;
     margin-right: 58px;
     margin-top: 181px;
-    /*margin: 181px 58px 89px;*/
+    /*!*margin: 181px 58px 89px;*! На предыдущем ревью была речь об отсупах снизу у футера,*/
+    /*                            однако в шаблоне фигмы и эталоне в тестах он присутствует.*/
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
